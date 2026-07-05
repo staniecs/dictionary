@@ -1,0 +1,10 @@
+.Dictionary {
+    max-width: 600px;
+   
+    margin: 0 auto;
+}
+
+.Dictionary form {
+    border-radius: 10px;
+    margin: 10px;
+}
