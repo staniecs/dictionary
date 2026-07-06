@@ -5,16 +5,15 @@ import axios from "axios";
 
 export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
+    let [result, setResult] = useState(null);
     
     function handleResponse(response) {
-        console.log(response.data);
-       
+        setResult(response.data);
     }
 
     function search(event) {
         event.preventDefault();
-        alert(`Searching for ${keyword}...`);
-
+        
         let apiKey = `b3b36of7f40tfb2fc5ea76728725e80c`;
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
         axios.get(apiUrl).then(handleResponse);
@@ -29,7 +28,8 @@ export default function Dictionary() {
             <form onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleKeywordChange} />
             </form>
-            <Results />
+            
+            <Results results={result}/>
         </div>
     )
 }
