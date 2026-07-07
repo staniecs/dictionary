@@ -1,14 +1,59 @@
 .Dictionary {
-    max-width: 600px;
-   
-    margin: 0 auto;
+    margin: auto;
+
+}
+
+.Dictionary .lookup {
+       background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0 20px 0; 
+}
+
+.Dictionary input {
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid #4a4a4a;
+    color: #333;
+    border-radius: 5px;
+}
+
+.Dictionary input:focus {
+    border: none;
 }
 
 .Dictionary form {
+    margin: 10px auto;
+    
+}
+
+.Meaning section {
+    background-color: white;
     border-radius: 10px;
-    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .Meaning {
     text-align: left;
+}
+
+.Results .words {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    text-align: left;
+}
+
+.Results h3 {
+    font-size: 20px;
+    color: #545c65;
+}
+
+.Synonyms ul {
+    margin-bottom: 5px;
 }

@@ -1,5 +1,25 @@
-.App  {
-  text-align: center;
-  margin: 30px auto;
+.App {
+  max-width: 960px;
+  padding: 60px 0 100px ;
+  margin: 0 auto;
 }
 
+.App h4 {
+  text-align: left;
+}
+body {
+  text-align: center;
+  background-color: #f6f5f7;
+  padding: 30px;
+}
+
+a {
+  color: #8a49cb;
+  text-decoration: none;
+}
+
+a:hover {
+   color: #975ed0 ;
+   text-decoration: underline;
+
+}

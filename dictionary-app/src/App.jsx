@@ -7,6 +7,7 @@ export default function App() {
 <div className="App">
   <div className="container"> 
     <h1>Dictionary</h1>
+    <br />
     <Dictionary />
 
   <p>This app was coded by <a href="https://github.com/staniecs" target="_blank" rel="noopener noreferrer">Sarah Staniec</a> and is open-sourced.</p>
