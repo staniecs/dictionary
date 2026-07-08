@@ -9,7 +9,7 @@ export default function Results(props) {
         <div className="Results">
             <section className="words">
             <h2>{props.results.word}</h2>
-            <h3>{props.results.phonetic}</h3>
+            <h3>/{props.results.phonetic}/</h3>
             </section>
             <section>
             {props.results.meanings.map(function (meaning, index) {

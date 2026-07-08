@@ -58,14 +58,6 @@
     margin-bottom: 5px;
 }
 
-.Photos section {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 20px 0 20px 0;
-}
-
-.Photos img {
-    border-radius: 4px;
+.Examples {
+    margin-bottom: 16px
 }
